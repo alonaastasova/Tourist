@@ -1,0 +1,12 @@
+.main{
+    /* width: 100%; Adjust as needed */
+    /* height: 100%;  */
+    /* height: 1500px; working, but not properly*/ 
+    background-repeat: no-repeat;
+    /* Combine three images */
+    background-image: url('../../media/headPhoto3.png'), url('../../media/headPhoto2.png'), url('../../media/linearGradient.png'), url('../../media/headPhoto1.png');
+    /* Position each image to align correctly */
+    background-position: center 570px, center 320px, center 0px, center 0px;
+    background-size: 100% auto;
+    /* filter: brightness(1); */
+}

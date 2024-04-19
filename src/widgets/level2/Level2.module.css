@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.main{
+    height: 600px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 175px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    gap: 100px;
+
+    background-image: url('../../media/02.png');
+    background-repeat: no-repeat;
+    background-position: 770px 60px;
+    background-size: 200px;
+}
+
+.firstBlock{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 122px;
+}
+
+.firstBlock .text1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FBD784;
+    letter-spacing: 5px;
+}
+
+.firstBlock h3{
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+    font-weight: 500;
+    width: 400px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.firstBlock p{
+    line-height: 2;
+}
+
+.firstBlock .text2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FBD784;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.firstBlock .text2:hover {
+    text-shadow: 5px 3px 25px #fbd78479;
+}
+
+.secondBlock img{
+    height: 600px;
+}
